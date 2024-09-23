@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Home Page</title>
+</head>
+
+<body>
+    <h1 style="color:blue;">Welcome to My Website!</h1>
+    <p>Software Developing And Consulting.</p>
+    <ul>
+        <li>30 Years Of Experience</li>
+        <li>500+ IT Professionals</li>
+        <li>3000 Success Stories</li>
+        <li>50+ Industries Covered</li>
+    </ul>
+    <table border="1">
+        <tr>
+            <th>Header 1</th>
+            <th>Header 2</th>
+        </tr>
+        <tr>
+            <td>Row 1, Cell 1</td>
+            <td>Row 1, Cell 2</td>
+        </tr>
+        <tr>
+            <td>Row 2, Cell 1</td>
+            <td>Row 2, Cell 2</td>
+        </tr>
+    </table>
+    <div style="border: 1px solid black; padding: 10px;">
+        <h2>Software Development</h2>
+        <p>A software development company with 30 ears of business excellence, we can develop reliable, scalable and secure software solutions for any OS, browser and device. We bring together deep industry expertise and the latest IT advancements to deliver custom solutions and products that perfectly fit the needs and behavior of their users.</p>
+
+<div class="a-services__bullet">
+<li ef="" class="a-services__bullet-a js-track-click">
+Software consulting
+</a>
+</div>
+<div class="a-services__bullet">
+<li href="" class="a-services__bullet-a js-track-click">
+Custom software development
+</a>
+</div>
+<div class="a-services__bullet">
+<li href="" class="a-services__bullet-a js-track-click">
+Software development outsourcing
+</li>
+</div>
+<div class="a-services__bullet">
+<li href="" class="a-services__bullet-a js-track-click">
+Software product development
+</li>
+</div>
+<div class="a-services__bullet">
+<li href="" class="a-services__bullet-a js-track-click">
+Team augmentation
+</li>
+</div>
+<div class="a-services__bullet">
+<li href="" class="a-services__bullet-a js-track-click">
+Cloud application development
+</li>
+</div>
+<div class="a-services__bullet">
+<li href="" class="a-services__bullet-a js-track-click">
+Legacy software modernization
+</li>
+</div>
+<div class="a-services__bullet">
+<li href="" class="a-services__bullet-a js-track-click">
+Post-launch support
+  </li>
+</div>
+</div>
+    </div>
+    <p><a href="about.html">Go to About Page</a></p>
+    <p><a href="contact.html">Go to Contact Page</a></p>
+</body>
+
+</html>
+
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>About Page</title>
+</head>
+
+<body>
+    <h1 style="color:green;">About Me</h1>
+    <p>This is the about page.</p>
+    <div style="border: 1px solid black; padding: 10px;">
+        <h2>My Skills</h2>
+        <ul>
+            <li>Skill 1</li>
+            <li>Skill 2</li>
+            <li>Skill 3</li>
+        </ul>
+    </div>
+    <p><a href="index.html">Go to Home Page</a></p>
+    <p><a href="contact.html">Go to Contact Page</a></p>
+</body>
+
+</html>
+
+
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Contact Page</title>
+</head>
+
+<body>
+    <h1 style="color:red;">Contact Me</h1>
+    <p>This is the contact page.</p>
+    <form action="/submit_form" method="post">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name"><br>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email"><br>
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message"></textarea><br>
+        <input type="submit" value="Submit">
+    </form>
+    <p><a href="index.html">Go to Home Page</a></p>
+    <p><a href="about.html">Go to About Page</a></p>
+
+
+</body>
+
+</html>
